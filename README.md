@@ -1,6 +1,7 @@
 # 🌟 Conversor de Monedas 🌟
 
-![Banner](https://via.placeholder.com/800x200.png?text=Conversor+de+Monedas)
+![Banner](https://github.com/user-attachments/assets/8afc010a-6e67-44ed-af04-d82a27d23970)
+
 
 Bienvenido a tu **Conversor de Monedas** 📈, una aplicación de consola elegante y funcional que te permite convertir entre diferentes monedas utilizando la API de Exchange Rate.
 
