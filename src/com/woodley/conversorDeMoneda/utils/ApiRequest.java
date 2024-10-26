@@ -17,7 +17,15 @@ public class ApiRequest {
         HttpURLConnection request = (HttpURLConnection) new URL(requestUrl).openConnection();
         request.connect();
 
-        JsonObject jsonResponse = JsonParser.parseReader(new InputStreamReader(request.getInputStream())).getAsJsonObject();
-        return jsonResponse;
+        return JsonParser.parseReader(new InputStreamReader(request.getInputStream())).getAsJsonObject();
+    }
+
+    // Método para enviar una solicitud a la API y obtener los códigos de monedas soportadas
+    public static JsonObject sendSupportedCodesRequest() throws Exception {
+        String requestUrl = API_URL + API_KEY + "/codes";
+        HttpURLConnection request = (HttpURLConnection) new URL(requestUrl).openConnection();
+        request.connect();
+
+        return JsonParser.parseReader(new InputStreamReader(request.getInputStream())).getAsJsonObject();
     }
 }

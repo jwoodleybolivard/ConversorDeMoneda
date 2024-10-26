@@ -1,6 +1,6 @@
 # 🌟 Conversor de Monedas 🌟
 
-![Banner](https://github.com/user-attachments/assets/8afc010a-6e67-44ed-af04-d82a27d23970)
+<img src="https://github.com/user-attachments/assets/8afc010a-6e67-44ed-af04-d82a27d23970" alt="Portada del Proyecto" style="width:100%; height:10rem;">
 
 
 Bienvenido a tu **Conversor de Monedas** 📈, una aplicación de consola elegante y funcional que te permite convertir entre diferentes monedas utilizando la API de Exchange Rate.
@@ -50,7 +50,7 @@ Bienvenido a tu **Conversor de Monedas** 📈, una aplicación de consola elegan
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MIT.
+Este proyecto está bajo la Licencia de Jesus![img.png](img.png).
 
 ---
 
